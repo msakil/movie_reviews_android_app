@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" >
+  <TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/tableLayout1" >
+    <TableRow>
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="User Email"
+        android:id="@+id/tvUemail" />
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="Movie Name"
+        android:id="@+id/tvMName" />
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="User Rating"
+        android:id="@+id/tvUrating" />
+      <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="User Review"
+        android:id="@+id/tvUreview"/>
+    </TableRow>
+  </TableLayout>
+  <TextView
+    android:text="from db Info"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/tvDbInfo" />
+</LinearLayout>
+<!-- From: file:/home/akhilesh/android/movieReviewsApp/app/src/main/res/layout/allratingsreviewsinfoview.xml -->

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/bodyWhite">
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/relativeLayout" >
+      <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="First Name: "
+        android:textColor="@color/footerBlack"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/tvFname"/>
+      <EditText
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:textColor="@color/footerBlack"
+        android:layout_toRightOf="@id/tvFname"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/edittext_bg"
+        android:singleLine="true"
+        android:id="@+id/etFname" />
+      <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="LastName: "
+        android:textColor="@color/footerBlack"
+        android:layout_below="@id/tvFname"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/tvLname"/>
+      <EditText
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:textColor="@color/footerBlack"
+        android:layout_toRightOf="@id/tvLname"
+        android:layout_below="@id/etFname"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/edittext_bg"
+        android:singleLine="true"
+        android:id="@+id/etLname" />
+      <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Email ID: "
+        android:textColor="@color/footerBlack"
+        android:layout_below="@id/tvLname"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/tvEmailId"/>
+      <EditText
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:textColor="@color/footerBlack"
+        android:layout_toRightOf="@id/tvEmailId"
+        android:layout_below="@id/etLname"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/edittext_bg"
+        android:singleLine="true"
+        android:id="@+id/etEmailId" />
+      <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Password: "
+        android:textColor="@color/footerBlack"
+        android:layout_below="@id/tvEmailId"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/tvPassword"/>
+      <EditText
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:textColor="@color/footerBlack"
+        android:password="true"
+        android:layout_toRightOf="@id/tvPassword"
+        android:layout_below="@id/etEmailId"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/edittext_bg"
+        android:singleLine="true"
+        android:id="@+id/etPassword" />
+      <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Re-Enter Password: "
+        android:textColor="@color/footerBlack"
+        android:layout_below="@id/tvPassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/tvRePassword"/>
+      <EditText
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:textColor="@color/footerBlack"
+        android:password="true"
+        android:layout_toRightOf="@id/tvRePassword"
+        android:layout_below="@id/etPassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/edittext_bg"
+        android:singleLine="true"
+        android:id="@+id/etRePassword" />
+      <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="User Photo: "
+        android:textColor="@color/footerBlack"
+        android:layout_below="@id/tvRePassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/tvUserPhoto"/>
+      <EditText
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:textColor="@color/footerBlack"
+        android:layout_toRightOf="@id/tvUserPhoto"
+        android:layout_below="@id/etRePassword"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/edittext_bg"
+        android:singleLine="true"
+        android:id="@+id/etUserPhoto" />
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:layout_below="@id/etUserPhoto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/bSubmit" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/tools"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:id="@+id/parentLayout" >
+<!--
+    <fragment
+      android:name="com.android.movieReviews.SearchResultFragment"
+      android:layout_width="400dp"
+      android:layout_height="450dp"
+      android:layout_gravity="right"
+      android:id="@+id/searchFragment" />
+-->
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/footerBlack"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true"
+      android:id="@+id/tvUserName" />
+    <android.support.library21.custom.SwipeRefreshLayoutBottom
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_alignParentLeft="true"
+      android:layout_below="@id/tvUserName"
+      android:id="@+id/swipeRefreshLayout" >
+      <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/listView" >
+      </ListView>
+    </android.support.library21.custom.SwipeRefreshLayoutBottom>
+    <FrameLayout
+      android:layout_width="400dp"
+      android:layout_height="300dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentRight="true"
+      android:id="@+id/frame_frag_container">
+    </FrameLayout>
+</RelativeLayout>
+<!-- From: file:/home/akhilesh/android/movieReviewsApp/app/src/main/res/layout/mainactivity.xml -->

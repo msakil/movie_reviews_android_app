@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="150dp"
+  android:padding="8dp"
+  android:background="@drawable/relativelayout_review"
+  android:id="@+id/relativeLayout">
+  <ImageView
+    android:src="@drawable/userone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:padding="1dp"
+    android:background="@android:color/transparent"
+    android:id="@+id/bImgUserPhoto" >
+  </ImageView>
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/footerBlack"
+    android:layout_alignParentTop="true"
+    android:layout_toRightOf="@id/bImgUserPhoto"
+    android:padding="2dp"
+    android:paddingLeft="20dp"
+    android:id="@+id/tvUserName" />
+  <RatingBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tvUserName"
+    android:layout_toRightOf="@id/bImgUserPhoto"
+    android:progressBackgroundTint="#000"
+    android:isIndicator="true"
+    android:progressTint="#F3EC0E"
+    android:numStars="5"
+    android:stepSize="1.0"
+    android:rating="2.0"
+    android:id="@+id/userRatingBar" />
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/footerBlack"
+    android:layout_below="@id/userRatingBar"
+    android:layout_toRightOf="@id/bImgUserPhoto"
+    android:padding="2dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:id="@+id/tvUserReview"/>
+</RelativeLayout>
+<!-- From: file:/home/akhilesh/android/movieReviewsApp/src/main/res/layout/movierow.xml -->

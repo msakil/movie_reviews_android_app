@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/akhilesh/android/movieReviewsApp/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bodyWhite">#F2F2F2</color>
+    <color name="footerBlack">#090808</color>
+    <!-- From: file:/home/akhilesh/android/movieReviewsApp/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <color name="footer_black">#090808</color>
+    <!-- From: file:/home/akhilesh/android/movieReviewsApp/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="grey">#4d4d4d</color>
+    <color name="headerBlue">#1EE9E9</color>
+    <!-- From: file:/home/akhilesh/android/movieReviewsApp/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <color name="header_blue">#1EE9E9</color>
+    <!-- From: file:/home/akhilesh/android/movieReviewsApp/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="red">#F31010</color>
+    <color name="reviewBlue">#008080</color>
+    <!-- From: file:/home/akhilesh/android/movieReviewsApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">MovieReviews</string>
+    <string name="search_hint">Search Movie</string>
+    <!-- From: file:/home/akhilesh/android/movieReviewsApp/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+  </style>
+    <style name="AppTheme.ActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid">
+    <item name="android:background">@drawable/blue_action_bar_background</item>
+    <item name="android:displayOptions"/>
+  </style>
+</resources>

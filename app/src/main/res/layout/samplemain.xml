@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:weightSum="100" >
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_weight="85"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/headerBlue" >
+    <ImageButton
+      android:src="@drawable/mrlogo"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:id="@+id/bImgLogo" >
+    </ImageButton>
+    <ImageButton
+      android:src="@drawable/magnifyingglass"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:id="@+id/bImgMagGlass" >
+    </ImageButton>
+    <EditText
+      android:layout_width="150dp"
+      android:layout_height="25dp"
+      android:background="@drawable/edittext_search_bg"
+      android:visibility="invisible"
+      android:id="@+id/etSearch"/>
+  </LinearLayout>
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="15"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bodyWhite">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Hi Akhil, "
+      android:textColor="@color/footerBlack" />
+    <ListView
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:id="@+id/listView" >
+    </ListView>
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/akhilesh/android/movieReviewsApp/app/build/intermediates/exploded-aar/movieReviewsApp/swiperefreshlayoutbottomlib/unspecified/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="39f84fe7c23e51d21b7e0b76b82f142c9f69bdc7">
+        <dex dex="/home/akhilesh/android/movieReviewsApp/app/build/intermediates/pre-dexed/debug/classes-137198c12ed149d1db2c8d5e2594993950059faf.jar" />
+    </item>
+    <item
+        jar="/home/akhilesh/android/movieReviewsApp/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/akhilesh/android/movieReviewsApp/app/build/intermediates/pre-dexed/debug/classes-4770d36e325d92e2ad7582e9f1580070cd803a4f.jar" />
+    </item>
+    <item
+        jar="/home/akhilesh/android/movieReviewsApp/app/build/intermediates/exploded-aar/movieReviewsApp/swiperefreshlayoutbottomlib/unspecified/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1dc1f63cee098b27db60b9a2833fd7ca58f89636">
+        <dex dex="/home/akhilesh/android/movieReviewsApp/app/build/intermediates/pre-dexed/debug/android-support-v4-c3f497df9a05e223cd79247a541cec6f75e3090e.jar" />
+    </item>
+    <item
+        jar="/home/akhilesh/android/movieReviewsApp/app/build/intermediates/exploded-aar/movieReviewsApp/swiperefreshlayoutbottomlib/unspecified/libs/android-support-v7-appcompat.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6c2e7717a6b70dd702de6f8df474b4458f6a16aa">
+        <dex dex="/home/akhilesh/android/movieReviewsApp/app/build/intermediates/pre-dexed/debug/android-support-v7-appcompat-530dcf6b8b898138d9cb46e538ce410ce74d91d4.jar" />
+    </item>
+
+</items>

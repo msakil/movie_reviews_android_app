@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="headerBlue">#1EE9E9</color>
+  <color name="bodyWhite">#F2F2F2</color>
+  <color name="footerBlack">#090808</color>
+  <color name="red">#F31010</color>
+  <color name="reviewBlue">#008080</color>
+  <color name="grey">#4d4d4d</color>
+</resources>

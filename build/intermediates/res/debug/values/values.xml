@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/akhilesh/android/movieReviewsApp/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="bodyWhite">#F2F2F2</color>
+    <color name="footerBlack">#090808</color>
+    <color name="grey">#4d4d4d</color>
+    <color name="headerBlue">#1EE9E9</color>
+    <color name="red">#F31010</color>
+    <color name="reviewBlue">#008080</color>
+    <!-- From: file:/home/akhilesh/android/movieReviewsApp/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">MovieReviews</string>
+</resources>

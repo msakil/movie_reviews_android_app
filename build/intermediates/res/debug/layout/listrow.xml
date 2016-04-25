@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="150dp"
+  android:padding="8dp"
+  android:background="@drawable/relativelayout_border"
+  android:id="@+id/relativeLayout">
+  <com.android.volley.toolbox.NetworkImageView
+    android:layout_width="95dp"
+    android:layout_height="128dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:padding="1dp"
+    android:scaleType="fitXY"
+    android:id="@+id/nwImgMoviePoster" />
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/footerBlack"
+    android:layout_alignParentTop="true"
+    android:layout_toRightOf="@id/nwImgMoviePoster"
+    android:padding="2dp"
+    android:paddingLeft="20dp"
+    android:id="@+id/tvMovieName" />
+  <RatingBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/tvMovieName"
+    android:layout_toRightOf="@id/nwImgMoviePoster"
+    android:progressBackgroundTint="#000"
+    android:progressTint="#F3EC0E"
+    android:numStars="5"
+    android:stepSize="1.0"
+    android:isIndicator="true"
+    android:id="@+id/ratingBar" />
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/footerBlack"
+    android:layout_below="@id/ratingBar"
+    android:layout_toRightOf="@id/nwImgMoviePoster"
+    android:padding="2dp"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:id="@+id/tvMovieDesc"/>
+</RelativeLayout>
+<!-- From: file:/home/akhilesh/android/movieReviewsApp/src/main/res/layout/listrow.xml -->

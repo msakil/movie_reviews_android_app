@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:weightSum="100" >
+  <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="140dp"
+    android:padding="8dp"
+    android:background="@drawable/relativelayout_border"
+    android:id="@+id/relativeLayout1">
+    <com.android.volley.toolbox.NetworkImageView
+      android:layout_width="95dp"
+      android:layout_height="128dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true"
+      android:padding="1dp"
+      android:scaleType="fitXY"
+      android:id="@+id/nwImgMoviePoster" />
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/footerBlack"
+      android:layout_alignParentTop="true"
+      android:layout_toRightOf="@id/nwImgMoviePoster"
+      android:padding="2dp"
+      android:paddingLeft="20dp"
+      android:id="@+id/tvMovieName" />
+    <RatingBar
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/tvMovieName"
+      android:layout_toRightOf="@id/nwImgMoviePoster"
+      android:progressBackgroundTint="#C0C0C0"
+      android:progressTint="#F3EC0E"
+      android:numStars="5"
+      android:stepSize="1.0"
+      android:isIndicator="true"
+      android:id="@+id/movRatingBar" />
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/footerBlack"
+      android:layout_below="@id/movRatingBar"
+      android:layout_toRightOf="@id/nwImgMoviePoster"
+      android:padding="2dp"
+      android:paddingLeft="20dp"
+      android:paddingTop="20dp"
+      android:id="@+id/tvMovieDesc"/>
+  </RelativeLayout>
+  <RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="120dp"
+    android:padding="8dp"
+    android:background="@color/bodyWhite"
+    android:id="@+id/relativeLayout2">
+    <ImageView
+      android:src="@drawable/userone"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentLeft="true"
+      android:padding="1dp"
+      android:id="@+id/imgUserPhoto" >
+    </ImageView>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/footerBlack"
+      android:layout_alignParentTop="true"
+      android:layout_toRightOf="@id/imgUserPhoto"
+      android:padding="2dp"
+      android:paddingLeft="20dp"
+      android:text="Akhil"
+      android:id="@+id/tvUserName" />
+    <RatingBar
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_toRightOf="@id/imgUserPhoto"
+      android:progressBackgroundTint="#C0C0C0"
+      android:progressTint="#F3EC0E"
+      android:numStars="5"
+      android:stepSize="1.0"
+      android:rating="0.0"
+      android:id="@+id/userRatingBar" />
+    <ImageButton
+      android:src="@drawable/writereviewstar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:layout_toRightOf="@id/userRatingBar"
+      android:adjustViewBounds="true"
+      android:background="@android:color/transparent"
+      android:paddingLeft="20dp"
+      android:paddingBottom="8dp"
+      android:id="@+id/bImgRateIt" >
+    </ImageButton>
+  </RelativeLayout>
+  <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:text="Done"
+    android:textColor="@color/footerBlack"
+    android:id="@+id/bDone" />
+  <EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Write Review..."
+    android:textColorHint="@color/footerBlack"
+    android:textColor="@color/footerBlack"
+    android:id="@+id/etWriteReview" />
+</LinearLayout>
+<!-- From: file:/home/akhilesh/android/movieReviewsApp/app/src/main/res/layout/writereview.xml -->

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:weightSum="100" >
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="85"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/headerBlue">
+    <ImageView
+      android:src="@drawable/logo"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_gravity="left"
+      android:id="@+id/imgLogo" />
+  </LinearLayout>
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="15"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bodyWhite" >
+    <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Email ID"
+      android:textColorHint="@color/footerBlack"
+      android:textColor="@color/footerBlack"
+      android:layout_gravity="center"
+      android:id="@+id/etUserId"/>
+    <EditText
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:hint="Password"
+      android:textColorHint="@color/footerBlack"
+      android:textColor="@color/footerBlack"
+      android:layout_gravity="center"
+      android:password="true"
+      android:id="@+id/etPassword"/>
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="LOGIN"
+      android:layout_gravity="center"
+      android:id="@+id/bLogin"/>
+    <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="SIGN UP"
+      android:layout_gravity="center"
+      android:id="@+id/bSignUp"/>
+  </LinearLayout>
+</LinearLayout>
+<!-- From: file:/home/akhilesh/android/movieReviewsApp/src/main/res/layout/login.xml -->

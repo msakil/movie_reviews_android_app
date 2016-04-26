@@ -1,4 +1,2 @@
 # movie_reviews_android_app
-This is a demo android app that lets users rate movies and write reviews.
-Beginners can use this app as a reference while creating apps of their own.
-Cheers :)
+This is an android app. It lets the users find movies, rate them and write reviews about them. 
